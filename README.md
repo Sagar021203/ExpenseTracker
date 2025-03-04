@@ -53,10 +53,5 @@ A simple React app to track income and expenses with real-time balance calculati
 2. View updated balance.
 3. Delete transactions from the list.
 
-## License
-
-MIT License.
-
----
 
 Feel free to reach out for any questions!
