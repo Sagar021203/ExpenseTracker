@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import ExpenseForm from "./components/ExpenseForm.jsx";
 import { ExpenseProvider } from "./context.jsx";
 import ExpenseList from "./components/ExpenseList.jsx";
-import Balance from "./components/balance.jsx";
+import Balance from "./components/Balance.jsx";
 import "./App.css";
 import { gsap } from "gsap";
 
