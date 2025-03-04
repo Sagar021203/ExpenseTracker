@@ -1,63 +1,62 @@
-Expense Manager
-A simple React-based web application to track income and expenses, visualize your balance, and manage transactions with smooth GSAP animations.
+# Expense Manager App
 
-Features
-Add income (positive values) and expenses (negative values) with descriptions.
-View total income, total expenses, and current balance.
-List all transactions with the ability to delete them.
-Data persists in localStorage for seamless use across sessions.
-Smooth animations powered by GSAP for an enhanced user experience.
-Tech Stack
-React: Frontend framework for building the UI.
-GSAP: Animation library for fluid transitions and effects.
-Context API: State management for expenses.
-CSS: Styling (via App.css).
-LocalStorage: Persists transaction data in the browser.
-Components
-App.jsx: Main component with animation setup and layout.
-Balance.jsx: Displays the current balance calculated from transactions.
-ExpenseForm.jsx: Form to add new income/expense entries with animations.
-ExpenseList.jsx: Lists transactions with totals and delete functionality.
-context.jsx: Provides global state management using React Context API.
-Installation
-Clone the repository:
-bash
+A simple React app to track income and expenses with real-time balance calculation and animations.
 
-Collapse
+## Features
 
-Wrap
+- Track income (positive) and expenses (negative).
+- Real-time balance calculation.
+- Smooth animations with GSAP.
+- Data persistence using `localStorage`.
 
-Copy
-git clone <repository-url>
-Navigate to the project directory:
-bash
+## Installation
 
-Collapse
+1. Clone the repository:
 
-Wrap
+    ```bash
+    git clone <repository_url>
+    cd <repository_directory>
+    ```
 
-Copy
-cd expense-manager
-Install dependencies:
-bash
+2. Install dependencies:
 
-Collapse
+    ```bash
+    npm install
+    ```
 
-Wrap
+3. Start the development server:
 
-Copy
-npm install
-Start the development server:
-bash
+    ```bash
+    npm start
+    ```
 
-Collapse
+4. Open `http://localhost:3000` in your browser.
 
-Wrap
+## File Structure
 
-Copy
-npm start
-Usage
-Enter a positive amount for income or a negative amount for expenses in the form.
-Add a description and submit to record the transaction.
-View your balance, total income, and expenses in real-time.
-Delete transactions by clicking the "X" button next to each entry.
+- **`App.jsx`**: Root component rendering `Balance`, `ExpenseForm`, and `ExpenseList`.
+- **`balance.jsx`**: Displays the current balance.
+- **`expenseform.jsx`**: Form to input income/expenses.
+- **`expenseList.jsx`**: Lists all transactions with delete functionality.
+- **`context.jsx`**: Manages global state using Context API.
+
+## Technologies Used
+
+- React
+- GSAP (for animations)
+- Context API
+- `localStorage` (for data persistence)
+
+## How It Works
+
+1. Add income/expenses using the form.
+2. View updated balance.
+3. Delete transactions from the list.
+
+## License
+
+MIT License.
+
+---
+
+Feel free to reach out for any questions!
