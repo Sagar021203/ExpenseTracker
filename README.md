@@ -13,7 +13,7 @@ A simple React app to track income and expenses with real-time balance calculati
 1. Clone the repository:
 
     ```bash
-    git clone <repository_url>
+    git clone https://github.com/Sagar021203/ExpenseTracker.git
     cd <repository_directory>
     ```
 
