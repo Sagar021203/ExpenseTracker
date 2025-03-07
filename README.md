@@ -6,7 +6,6 @@ A simple React app to track income and expenses with real-time balance calculati
 
 - Track income (positive) and expenses (negative).
 - Real-time balance calculation.
-- Smooth animations with GSAP.
 - Data persistence using `localStorage`.
 
 ## Installation
