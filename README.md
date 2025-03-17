@@ -1,6 +1,7 @@
 # Expense Manager App
 
 A simple React app to track income and expenses with real-time balance calculation and animations.
+Live Preview : https://expense-trackerr-theta.vercel.app/
 
 ## Features
 
